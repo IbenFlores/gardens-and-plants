@@ -100,6 +100,8 @@ GEM
     digest (3.1.0)
     erubi (1.10.0)
     execjs (2.8.1)
+    faker (2.22.0)
+      i18n (>= 1.8.11, < 2)
     ffi (1.15.5)
     font-awesome-sass (6.1.1)
       sassc (~> 2.0)
@@ -244,6 +246,7 @@ DEPENDENCIES
   bootsnap
   capybara
   debug
+  faker
   font-awesome-sass (~> 6.1.0)
   jbuilder
   jsbundling-rails
